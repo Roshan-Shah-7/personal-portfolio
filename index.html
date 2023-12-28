@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./assets/photos/roshan.-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div id="main">
+        <!-- <div class="cursor"></div> -->
+
+        <!-- Header -->
+        <section class="navbar container">
+            <div class="logo"><i class="ri-code-fill"></i>roshan.<i class="ri-code-s-slash-fill"></i></div>
+            <div class="hambuger">
+                <i class="ri-menu-3-line" id="open"></i>
+                <i class="ri-close-line" id="close"></i>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <button id="btn">Contact</button>
+                    <li id="lang"><i class="ri-sun-line" id="light"></i></li>
+                    <li><i class="ri-sun-fill" id="dark"></i></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Header End -->
+
+        <!-- Hero -->
+        <section class="hero container">
+            <div class="img">
+                <img src="./assets/photos/mine.webp" loading="lazy" id="mine_c">
+                <img src="./assets/photos/mine b&w.jpg" loading="lazy" id="mine_bw">
+            </div>
+            <div class="txts">
+                <div class="heading">
+                    <h3 id="greeting">Hi, I'm</h3>
+                    <h2 id="name">Roshan Shah</h2>
+                </div>
+                <div class="role" id="role">
+                    Front-end Developer, UI/UX Designer
+                </div>
+                <div class="btn">
+                    <button><a href="./assets/cv/Noob-Baba-cv (1).pdf" target="_blank" download id="cv">Download CV</a></button>
+                </div>
+                <div class="social_links">
+                    <a href=""><i class="ri-linkedin-box-line"></i></a>
+                    <a href="https://github.com/Roshan-Shah-7" target="_blank"><i class="ri-github-fill"></i></a>
+                    <a href=""><i class="ri-twitter-x-line"></i></a>
+                    <a href=""><i class="ri-instagram-line"></i></a>
+                    <a href=""><i class="ri-whatsapp-line"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Hero End -->
+
+        <!-- About -->
+
+        <section class="about container" id="about">
+            <div class="title">
+                <h1>About</h1>
+            </div>
+            <div class="pag_me">
+                <p>
+                    A dedicated and goal-oriented student seeking a Bachelor of
+                    Computer Applications (BCA) degree is passionate about
+                    technology and has a strong background in computer science. A
+                    demonstrated capacity for quick concept learning combined with
+                    excellent analytical and problem-solving abilities. knowledgeable
+                    about technologies with a particular emphasis on Python, Java,
+                    C/C++, PHP, JavaScript, HTML, and CSS programming languages.
+                    Able to work well in cross-functional teams and have outstanding
+                    communication abilities.
+                </p>
+            </div>
+        </section>
+
+        <!-- About End -->
+
+        <!-- what I do -->
+
+        <section class="services container">
+            <div class="heading">
+                <h1>What I Do</h1>
+            </div>
+            <div class="cards">
+                <div class="box">
+                    <div class="img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="51" height="47" viewBox="0 0 51 47" fill="none">
+                            <path
+                                d="M13.6744 18.8037C13.2327 18.5029 12.7898 18.3525 12.3481 18.3525H10.3628V29.1899H12.3493C12.791 29.1899 13.2338 29.0395 13.6755 28.7387C14.1172 28.4378 14.3381 27.9866 14.3381 27.3838V20.1585C14.3369 19.5569 14.1149 19.1046 13.6744 18.8037ZM46.0025 0.515869H4.99754C2.24263 0.515869 0.00683036 2.54808 0 5.05957V42.4465C0.00683036 44.958 2.24263 46.9902 4.99754 46.9902H46.0025C48.7585 46.9902 50.9932 44.958 51 42.4465V5.05957C50.9932 2.54808 48.7574 0.515869 46.0025 0.515869ZM17.554 27.4036C17.554 29.3549 16.2323 32.3114 12.0487 32.3051H6.76661V15.1408H12.1603C16.1948 15.1408 17.5517 18.0931 17.5529 20.0455L17.554 27.4036ZM29.0154 18.2062H22.95V22.1918H26.6577V25.2593H22.95V29.2439H29.0165V32.3114H21.938C20.6675 32.3414 19.6111 31.4265 19.5792 30.2688V17.2902C19.5485 16.1335 20.5537 15.1729 21.823 15.1439H29.0165L29.0154 18.2062ZM40.8137 30.1661C39.311 33.356 36.6187 32.7211 35.4131 30.1661L31.0269 15.1449H34.7346L38.1168 26.9419L41.483 15.1449H45.1919L40.8137 30.1661Z"
+                                fill="#27AE60" />
+                        </svg>
+                    </div>
+                    <h3>Front-end <br>Development</h3>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="47" viewBox="0 0 45 47" fill="none">
+                            <path
+                                d="M44.1461 15.0122L23.5797 0.852005C22.8777 0.405868 22.1285 0.401784 21.4201 0.852005L0.853768 15.0122C0.326425 15.3752 0 16.0237 0 16.6719V30.832C0 31.4804 0.326425 32.1288 0.853856 32.4919L21.4202 46.6541C22.1222 47.1002 22.8714 47.1043 23.5798 46.6541L44.1461 32.4919C44.6735 32.1289 45 31.4804 45 30.832V16.6719C44.9999 16.0237 44.6735 15.3752 44.1461 15.0122ZM24.4335 6.24622L39.5758 16.6719L32.8208 21.3402L24.4335 15.5567V6.24622ZM20.5664 6.24622V15.5567L12.1791 21.3402L5.42407 16.6719L20.5664 6.24622ZM3.86718 20.4065L8.71372 23.752L3.86718 27.0976V20.4065ZM20.5664 41.2578L5.42407 30.8321L12.1791 26.1639L20.5664 31.9473V41.2578ZM22.5 28.4721L15.6695 23.752L22.5 19.032L29.3304 23.752L22.5 28.4721ZM24.4335 41.2578V31.9473L32.8208 26.1639L39.5758 30.8321L24.4335 41.2578ZM41.1327 27.0976L36.2862 23.752L41.1327 20.4065V27.0976Z"
+                                fill="#27AE60" />
+                        </svg>
+                    </div>
+                    <h3>Web Designing</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- what I do end -->
+
+        <!-- My skills -->
+
+        <section class="skills container">
+            <div class="heading">
+                <h1>My Skills</h1>
+            </div>
+            <div class="lists">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="./assets/photos/javascript.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/photos/html.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/photos/css.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/photos/figma.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/photos/react.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/photos/C++-removebg-preview.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/photos/python.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/photos/c_-removebg-preview.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/photos/php.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My skills end -->
+
+        <!-- Projects -->
+
+        <sections class="projects container" id="Project">
+            <div class="heading">
+                <h1>My Projects</h1>
+                <p>
+                    Below are the projects that I have made myself & some projects are made by using
+                    youtube tutorials.
+                </p>
+            </div>
+            <div class="projects_videos"></div>
+        </sections>
+
+        <!-- Projects End -->
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
